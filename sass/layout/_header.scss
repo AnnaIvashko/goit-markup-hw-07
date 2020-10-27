@@ -115,12 +115,11 @@
 
   .header-icon {
     display: inline-block;
-    margin-right: 10px;
+    margin-right: 20px;
     fill: #757575;
-
-    .mail:hover &,
-    .tel:hover & {
-      fill: $accent-color;
-    }
   }
+}
+.mail:hover,
+.tel:hover {
+  fill: $accent-color;
 }
