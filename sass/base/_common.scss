@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: var(--main-font);
+  font-family: $main-font;
   font-style: normal;
 }
 
@@ -19,7 +19,7 @@ body {
 }
 
 .address {
-  font-family: var(--main-font);
+  font-family: $main-font;
   font-style: normal;
 }
 

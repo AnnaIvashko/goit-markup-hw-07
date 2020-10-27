@@ -1,10 +1,3 @@
-:root {
-  --main-font: "Roboto", sans-serif;
-  --secondary-font: "Ralewey", sans-serif;
-  --accent-color: #2196f3;
-  --main-color: #212121;
-}
-
 .is-hidden {
   opacity: 0;
   visibility: hidden;
@@ -19,7 +12,7 @@
 }
 
 body {
-  font-family: var(--main-font);
+  font-family: "Roboto", sans-serif;
   font-style: normal;
 }
 
@@ -32,7 +25,7 @@ body {
 }
 
 .address {
-  font-family: var(--main-font);
+  font-family: "Roboto", sans-serif;
   font-style: normal;
 }
 
@@ -98,13 +91,13 @@ img {
 }
 
 .close-btn:hover .modal-x {
-  fill: var(--accent-color);
+  fill: #2196f3;
 }
 
 .modal-form-btn {
   align-items: center;
   display: inline-block;
-  font-family: var(--secondary-font);
+  font-family: "Ralewey", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -112,7 +105,7 @@ img {
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
-  background-color: var(--accent-color);
+  background-color: #2196f3;
   padding: 10px 28px;
   width: 200px;
   height: 50px;
@@ -180,11 +173,11 @@ img {
 .modal-form-input:focus,
 .modal-form-message:focus {
   outline: none;
-  border: 1px solid var(--accent-color);
+  border: 1px solid #2196f3;
 }
 
 .modal-form-input:focus + .modal-form-svg {
-  fill: var(--accent-color);
+  fill: #2196f3;
 }
 
 .modal-form-svg {
@@ -221,7 +214,7 @@ img {
 }
 
 .modal-form-policy:checked + .modal-form-policy-label::before {
-  background-color: var(--accent-color);
+  background-color: #2196f3;
   border: none;
 }
 
@@ -259,7 +252,7 @@ img {
   display: block;
   width: 100%;
   height: 4px;
-  background-color: var(--accent-color);
+  background-color: #2196f3;
   border-radius: 2px;
 }
 
@@ -300,7 +293,7 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--main-color);
+  color: #212121;
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -310,7 +303,7 @@ img {
 .mail-list-link:focus,
 .tel-list-link:hover,
 .tel-list-link:focus {
-  color: var(--accent-color);
+  color: #2196f3;
 }
 
 .navigation-list-link:focus .navigation-element,
@@ -335,7 +328,7 @@ img {
 
 .mail:hover .header-icon,
 .tel:hover .header-icon {
-  fill: var(--accent-color);
+  fill: #2196f3;
 }
 
 .header-icon {
@@ -369,7 +362,7 @@ img {
 .modal-btn {
   align-items: center;
   display: inline-block;
-  font-family: var(--secondary-font);
+  font-family: "Ralewey", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -377,7 +370,7 @@ img {
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
-  background-color: var(--accent-color);
+  background-color: #2196f3;
   padding: 10px 28px;
   width: 200px;
   height: 50px;
@@ -412,7 +405,7 @@ img {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--main-color);
+  color: #212121;
   margin-bottom: 10px;
 }
 
@@ -466,7 +459,7 @@ img {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--main-color);
+  color: #212121;
 }
 
 .direction-img-wrapper {
@@ -588,6 +581,7 @@ img {
 
 .customers .title {
   margin-bottom: 50px;
+  margin-top: 94px;
 }
 
 .customer-list {
@@ -601,13 +595,13 @@ img {
 
 .customer-link:hover .customer-svg,
 .customer-link:focus .customer-svg {
-  fill: var(--accent-color);
+  fill: #2196f3;
   cursor: pointer;
 }
 
 .customer-link:hover,
 .customer-link:focus {
-  border-color: var(--accent-color);
+  border-color: #2196f3;
 }
 
 .customer-svg {
@@ -684,7 +678,6 @@ img {
   text-transform: uppercase;
   width: 100%;
   color: #ffffff;
-  /* margin-right: 936px; */
   margin-top: 72px;
   margin-bottom: 20px;
 }
@@ -718,7 +711,7 @@ img {
 
 .footer-social-link:hover,
 .footer-social-link:focus {
-  background-color: var(--accent-color);
+  background-color: #2196f3;
 }
 
 .footer-social-list:hover .social-icon-footer,
@@ -765,7 +758,7 @@ img {
   align-items: center;
   display: flex;
   justify-content: center;
-  font-family: var(--secondary-font);
+  font-family: "Ralewey", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -773,7 +766,7 @@ img {
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
-  background-color: var(--accent-color);
+  background-color: #2196f3;
   width: 200px;
   height: 50px;
   border: 1px solid #000000;

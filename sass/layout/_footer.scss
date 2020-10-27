@@ -57,7 +57,6 @@
   width: 100%;
 
   color: #ffffff;
-  /* margin-right: 936px; */
   margin-top: 72px;
   margin-bottom: 20px;
 }
@@ -90,7 +89,7 @@
 
 .footer-social-link:hover,
 .footer-social-link:focus {
-  background-color: var(--accent-color);
+  background-color: $accent-color;
 }
 
 .footer-social-list:hover .social-icon-footer,
@@ -140,7 +139,7 @@
   align-items: center;
   display: flex;
   justify-content: center;
-  font-family: var(--secondary-font);
+  font-family: $secondary-font;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -148,7 +147,7 @@
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
-  background-color: var(--accent-color);
+  background-color: $accent-color;
   width: 200px;
   height: 50px;
   border: 1px solid #000000;

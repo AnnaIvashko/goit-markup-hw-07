@@ -49,13 +49,13 @@
 }
 
 .close-btn:hover .modal-x {
-  fill: var(--accent-color);
+  fill: $accent-color;
 }
 
 .modal-form-btn {
   align-items: center;
   display: inline-block;
-  font-family: var(--secondary-font);
+  font-family: $secondary-font;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -63,7 +63,7 @@
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
-  background-color: var(--accent-color);
+  background-color: $accent-color;
   padding: 10px 28px;
   width: 200px;
   height: 50px;
@@ -139,11 +139,11 @@
 .modal-form-input:focus,
 .modal-form-message:focus {
   outline: none;
-  border: 1px solid var(--accent-color);
+  border: 1px solid $accent-color;
 }
 
 .modal-form-input:focus + .modal-form-svg {
-  fill: var(--accent-color);
+  fill: $accent-color;
 }
 
 .modal-form-svg {
@@ -183,6 +183,6 @@
 }
 
 .modal-form-policy:checked + .modal-form-policy-label::before {
-  background-color: var(--accent-color);
+  background-color: $accent-color;
   border: none;
 }
