@@ -1,18 +1,14 @@
 .advantages-list {
   display: flex;
-}
 
-.advantages .container {
-  height: 290px;
-}
+  &-item {
+    width: 270px;
+    margin-top: 94px;
 
-.advatages-list-item {
-  width: 270px;
-  margin-top: 94px;
-}
-
-.advantages-list-item:not(:last-child) {
-  margin-right: 30px;
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
 }
 
 .advantages-title {
