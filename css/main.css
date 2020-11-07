@@ -700,22 +700,20 @@ img {
   box-sizing: border-box;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
+  text-align: start;
   padding-left: 16px;
-  padding-top: 10px;
   background-color: #2f303a;
   color: #ffffff;
 }
 
 .footer-mail {
   display: flex;
-  justify-content: start;
 }
 
 .footer-mail input::placeholder {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.87;
-  align-items: center;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
